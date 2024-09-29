@@ -1,3 +1,5 @@
+export PATH := /Users/simonettabib/Applications/lilypond-2.25.19/bin:$(PATH)
+
 ##############
 # parameters #
 ##############
