@@ -118,17 +118,17 @@ TONALITYTransposePitch=tonalityTransposePitch(TONALITY)
 	\context {
 		\Score
 		%% change the size of the text fonts
-		%%\override LyricText #'font-family = #'typewriter
-		\override LyricText #'font-size = #'-2
+		%%\override LyricText.font-family = #'typewriter
+		\override LyricText.font-size = #'-2
 
 		%% set the style of the chords to Jazz - I don't see this making any effect
-		\override ChordName #'style = #'jazz
-		%%\override ChordName #'word-space = #2
+		\override ChordName.style = #'jazz
+		%%\override ChordName.word-space = #2
 
 		%% set the chord size and font
-		%%\override ChordName #'font-series = #'bold
-		%%\override ChordName #'font-family = #'roman
-		%%\override ChordName #'font-size = #-1
+		%%\override ChordName.font-series = #'bold
+		%%\override ChordName.font-family = #'roman
+		%%\override ChordName.font-size = #-1
 
 		%% don't show bar numbers (for jazz it makes it too cluttery)
 		\remove "Bar_number_engraver"

@@ -240,7 +240,7 @@ PartLyrics=\lyricmode {
 		\new ChordNames="chords" \PartChords
 	>>
 	\layout {
-		\context { \RemoveEmptyStaffContext }
+		\context { \RemoveEmptyStaves }
 	}
 }
 %% score for midi
